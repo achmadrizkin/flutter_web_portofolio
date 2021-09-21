@@ -25,6 +25,9 @@ A Flutter app based on the design of the Covid Tracker App, created by *Achmad R
 - Run it
 ```
 
+## Link Website
+https://achmadrizkin.github.io/web_portofolio/#/
+
 ## Preview App
 ![image](https://user-images.githubusercontent.com/75843138/134105326-ca622a02-0b05-4ee3-8acc-5735dabfc407.png)
 ![image](https://user-images.githubusercontent.com/75843138/134105362-c01c7d1e-8947-4ae5-a51a-b704b8de5400.png)
