@@ -1,16 +1,31 @@
-# portofolio_website
+# ✔️ Flutter Portofolio Website
 
-A new Flutter project.
+A Flutter app based on the design of the Covid Tracker App, created by *Achmad Rizki Nur Fauzie*,
 
-## Getting Started
+## Features
+- Responsive Apps
+- Launch url (if u clicked readmore, u will go to github project)
+- Animiated Text
+- Clean Code
 
-This project is a starting point for a Flutter application.
+## Plugin
+- flutter_svg: ^0.22.0
+- google_fonts: ^2.1.0
+- url_launcher: ^6.0.10
+- flutter_svg: ^0.22.0
+- google_fonts: ^2.1.0
+- url_launcher: ^6.0.10
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Getting Started 🚀
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```shell
+- Clone the repo
+- Install the dependicies
+- Run it
+```
+
+## Preview App
+![image](https://user-images.githubusercontent.com/75843138/134105326-ca622a02-0b05-4ee3-8acc-5735dabfc407.png)
+![image](https://user-images.githubusercontent.com/75843138/134105362-c01c7d1e-8947-4ae5-a51a-b704b8de5400.png)
+![image](https://user-images.githubusercontent.com/75843138/134105385-52d490a0-29f4-410b-b045-bf6844f444b3.png)
