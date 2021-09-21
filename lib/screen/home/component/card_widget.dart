@@ -1,7 +1,7 @@
-
 import 'package:flutter/material.dart';
 import 'package:portofolio_website/constaint.dart';
 import 'package:portofolio_website/models/project.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class CardWidget extends StatelessWidget {
   const CardWidget({
@@ -34,7 +34,9 @@ class CardWidget extends StatelessWidget {
           ),
           Spacer(),
           TextButton(
-            onPressed: () {},
+            onPressed: () {
+              launch(project.link!);
+            },
             child: Text(
               "Read More >>",
               style: TextStyle(color: primaryColor),

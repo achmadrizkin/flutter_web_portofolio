@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portofolio_website/constaint.dart';
-import 'package:portofolio_website/models/project.dart';
 import 'package:portofolio_website/responsive.dart';
-import 'package:portofolio_website/screen/home/component/card_widget.dart';
+import 'package:portofolio_website/screen/home/component/project_gridview.dart';
 
 class MyProject extends StatelessWidget {
   const MyProject({
@@ -18,6 +17,9 @@ class MyProject extends StatelessWidget {
           "My Projects",
           style: Theme.of(context).textTheme.headline6,
         ),
+        Text(
+          "Click Read More if you want see a source code or more details",
+        ),
         SizedBox(
           height: defaultPadding,
         ),
@@ -31,30 +33,3 @@ class MyProject extends StatelessWidget {
   }
 }
 
-class ProjectGridView extends StatelessWidget {
-  const ProjectGridView({
-    Key? key,
-    this.crossAxisCount = 3,
-    this.childAspectRatio = 1.3,
-  }) : super(key: key);
-
-  final int crossAxisCount;
-  final double childAspectRatio;
-
-  @override
-  Widget build(BuildContext context) {
-    return GridView.builder(
-      shrinkWrap: true,
-      physics: NeverScrollableScrollPhysics(),
-      itemCount: demo_projects.length,
-      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: crossAxisCount,
-          crossAxisSpacing: defaultPadding,
-          mainAxisSpacing: defaultPadding,
-          childAspectRatio: childAspectRatio),
-      itemBuilder: (context, index) => CardWidget(
-        project: demo_projects[index],
-      ),
-    );
-  }
-}
