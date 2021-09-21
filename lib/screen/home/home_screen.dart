@@ -10,7 +10,6 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return MainScreen(children: [
       HomeBanner(),
-      // HighlighInfo(),
       MyProject(),
     ]);
   }
